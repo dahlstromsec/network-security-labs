@@ -1,0 +1,21 @@
+# Never publish operational secrets or configuration backups
+*.key
+*.pem
+*.p12
+*.pfx
+wg*.conf
+config.xml
+*backup*.xml
+.env
+# Local credentials, captures and generated configuration
+.env.*
+*.ppk
+*.ovpn
+id_rsa*
+id_ed25519*
+*.pcap
+*.pcapng
+suricata.yaml
+custom.yaml
+.DS_Store
+Thumbs.db
